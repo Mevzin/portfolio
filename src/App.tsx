@@ -1,11 +1,14 @@
 import React from 'react';
+import { Profile } from './pages/profile';
+import { GlobalStyle } from './styles/global';
 
 function App() {
   return (
-      <>
-        <h1>Estamos em construção</h1>
-      </>
-    );
+    <>
+      <GlobalStyle />
+      <Profile />
+    </>
+  );
 }
 
 export default App;
