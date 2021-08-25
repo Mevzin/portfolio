@@ -8,7 +8,7 @@ export const CardProfile = styled.div`
 `;
 
 export const CardProfileInner = styled.div`
-  border: 3px solid var(--white);
+  border: 1px solid var(--gray);
   border-radius: 1em;
   padding: 0 0.50rem 0 0.50rem;
 `;
