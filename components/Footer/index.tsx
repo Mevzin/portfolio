@@ -1,8 +1,9 @@
-export default function Footer() {
+import styles from "./styles.module.scss";
 
-  return(
-    <>
-      <h1>Footer</h1>
-    </>
+export default function Header() {
+  return (
+    <div className={styles.navContainer}>
+      
+    </div>
   );
 }

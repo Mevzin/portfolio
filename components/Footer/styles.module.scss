@@ -1,0 +1,14 @@
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(
+    to bottom, 
+    var(--background),
+    var(--purple-900) 
+  );
+  padding: 0 3.188rem;
+  margin-top: 3.188rem;
+}
