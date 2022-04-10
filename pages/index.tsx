@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+import CardAboutMe from "../components/CardAboutMe";
 import styles from "./home.module.scss";
 
 
@@ -8,7 +9,6 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.bannerContainer}>
         <section className={styles.text}>
-        
           <h1>
             Hi my name is
             <span> Thiago Torres </span>
@@ -17,6 +17,7 @@ export default function Home() {
         </section>
         <img src="/assets/profile.png" alt="Profile photo" />
       </div>
+      <CardAboutMe />
     </div>
   );
 }
