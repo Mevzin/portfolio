@@ -1,7 +1,7 @@
-.navContainer {
+.footerContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 100px;
   background: linear-gradient(
@@ -11,4 +11,9 @@
   );
   padding: 0 3.188rem;
   margin-top: 3.188rem;
+
+  a{
+    text-decoration: none;
+  }
 }
+
