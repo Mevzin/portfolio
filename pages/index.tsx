@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import CardAboutMe from "../components/CardAboutMe";
+import CardProjects from "../components/CardProjects";
 import ProgressBarSkills from "../components/ProgressBarSkills/inde";
 import styles from "./home.module.scss";
 
@@ -72,6 +73,7 @@ export default function Home() {
           color="var(--purple-900)"
        />
       </div>
+      <CardProjects />
     </div>
   );
 }
