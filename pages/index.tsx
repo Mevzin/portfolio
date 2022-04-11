@@ -23,15 +23,15 @@ export default function Home() {
         <h1>Skills</h1>
         <div className={styles.skillsContent}>
           <div className={styles.left}>
-            <ProgressBarSkills 
-              title="HTML" 
-              value={29} 
-              color="var(--purple-900)" 
+            <ProgressBarSkills
+              title="HTML"
+              value={29}
+              color="var(--purple-900)"
             />
-            <ProgressBarSkills 
-              title="Css" 
-              value={29} 
-              color="var(--purple-900)" 
+            <ProgressBarSkills
+              title="Css"
+              value={29}
+              color="var(--purple-900)"
             />
             <ProgressBarSkills
               title="Javascript"
@@ -59,21 +59,17 @@ export default function Home() {
               title="Typescript"
               value={29}
               color="var(--purple-900)"
-            />       
+            />
             <ProgressBarSkills
               title="Styled Comp."
               value={29}
               color="var(--purple-900)"
-          /> 
+            />
           </div>
         </div>
-       <ProgressBarSkills
-          title="Sass"
-          value={29}
-          color="var(--purple-900)"
-       />
+        <ProgressBarSkills title="Sass" value={29} color="var(--purple-900)" />
       </div>
-      <CardProjects />
+        <CardProjects />
     </div>
   );
 }
