@@ -51,7 +51,7 @@ export default function CardProject({
       {imageUrl ? <img src="/assets/HomeIgnews.png" alt="ignews" /> : <VscGithub />}
       <div className={styles.footerCard}>
         <div className={styles.actionsCard}>
-          <h1>Ignews</h1>
+          <h1>{title}</h1>
           <div className={styles.buttonsAction}>
             {codeUrl ? <a href={codeUrl} target="blank">Code</a> : null}
             {viewUrl ? <a href={viewUrl} target="blank">View</a> : null}

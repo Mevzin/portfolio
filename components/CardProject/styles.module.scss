@@ -7,6 +7,11 @@
   background: var(--gray-900);
   border-radius: 12px;
   border: 1px solid #505050;
+  transition: 0.4s;
+
+  &:hover {
+    box-shadow: 7px 7px 20px white;
+  }
 
   > img {
     width: 100%;

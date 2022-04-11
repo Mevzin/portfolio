@@ -11,7 +11,7 @@ export default function CardProjects() {
           title="Ignews"
           codeUrl="https://github.com/Mevzin/ignews"
           languages={['react', 'typescript',]}
-          viewUrl=""
+          viewUrl="aa"
         />
       </div>
     </div>
