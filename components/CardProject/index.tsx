@@ -58,7 +58,7 @@ export default function CardProject({
           </div>
         </div>
         <div className={styles.languagesIcons}>
-          {languages.map((language) =>  iconValid(language) )}
+          {languages.map((language) =>  <div key={language}>{iconValid(language)}</div> )}
         </div>
       </div>
     </div>
