@@ -7,7 +7,7 @@ export default function CardProjects() {
       <h1>Projects</h1>
       <div className={styles.contentCard}>
         <CardProject
-          imageUrl="/assets/Homeignews.png"
+          imageUrl="/assets/ignews.png"
           title="Ignews"
           codeUrl="https://github.com/Mevzin/ignews"
           languages={["nextjs", "typescript", "scss"]}
