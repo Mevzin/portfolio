@@ -40,5 +40,17 @@
 
 .contentCard {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1690px) {
+  .contentCard {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width:1100px) {
+  .contentCard {
+    grid-template-columns: 1fr;
+  }
 }

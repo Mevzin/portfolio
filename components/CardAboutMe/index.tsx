@@ -7,15 +7,13 @@ export default function CardAboutMe() {
         <h1> About me </h1>
         <p>
           {" "}
-          Tive meu primeiro contato com programação em 2015 quando tinha meus 15
-          anos e estava ingressando no ensino médio, como a maioria das pessoas
-          começam em desenvolvimento web também iniciei copiando códigos html e
-          css de alguns sites e ficava super feliz quando funcionava. Em 2018
-          entrei para a faculdade de analise e desenvolvimento de sistemas na
-          Universidade Vale do Salgado e no decorrer do curso aprendi muitas
-          coisas novas e também inúmeras possibilidades para o mundo web ...
+          Ola meu nome é Thiago Torres, tenho 22 anos
+          moro em Iguatu CE, trabalho com front end há 3 anos
+          sou formado em Analise e Desenvolvimento de sistemas
+          pela Universidade Vale do Salgado e estou sempre em busca
+          de aprender mais e evoluir tanto como pessoa quanto como dev!
         </p>
-        <button>Read More</button>
+        <button>LinkedIn</button>
       </div>
     </div>
   );
