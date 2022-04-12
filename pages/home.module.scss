@@ -117,7 +117,7 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 600px) {
   .bannerContainer {
     display: flex;
     flex-direction: column;
@@ -144,6 +144,7 @@
       font-weight: 700;
       color: var(--white-900);
       text-align: justify;
+      margin-bottom: 1rem;
     }
 
     span {
