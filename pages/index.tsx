@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 import CardAboutMe from "../components/CardAboutMe";
 import CardProjects from "../components/CardProjects";
+import ContactMe from "../components/ContactMe";
 import ProgressBarSkills from "../components/ProgressBarSkills/inde";
 import styles from "./home.module.scss";
 
@@ -70,6 +71,7 @@ export default function Home() {
         <ProgressBarSkills title="Sass" value={29} color="var(--purple-900)" />
       </div>
         <CardProjects />
+        <ContactMe />
     </div>
   );
 }
