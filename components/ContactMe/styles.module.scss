@@ -71,7 +71,27 @@
   }
 }
 
-@media (max-width: 600px){
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+
+  svg {
+    cursor: pointer;
+    color: var(--purple-900);
+    font-size: 2rem;
+    margin-top: 20px;
+    transition: 0.3s;
+
+    &:hover {
+      color: var(--gray-100);
+    }
+  }
+}
+
+@media (max-width: 600px) {
   .containerContactMe {
     width: 90%;
     height: 450px;

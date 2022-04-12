@@ -1,10 +1,10 @@
 import styles from "./styles.module.scss";
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
+import { SiLinkedin, SiGithub, SiInstagram, SiWhatsapp } from "react-icons/si";
 
 export default function ContactMe() {
-  function handleOnSubmit(e:any) {
+  function handleOnSubmit(e: any) {
     e.preventDefault();
     emailjs
       .sendForm(
@@ -37,11 +37,28 @@ export default function ContactMe() {
     <div id="contactme" className={styles.containerContactMe}>
       <h1>Entre em contato</h1>
       <form onSubmit={handleOnSubmit}>
-        <input type="text" name="user_name" placeholder="Name"/>
-        <input type="text" name="user_email" placeholder="Email"/>
-        <textarea name="user_message" placeholder="Message"/>
+        <input type="text" name="user_name" placeholder="Name" />
+        <input type="text" name="user_email" placeholder="Email" />
+        <textarea name="user_message" placeholder="Message" />
         <button type="submit">Submit</button>
       </form>
+      <div className={styles.social}>
+        <a href="https://www.linkedin.com/in/thiagotorresmev/" target="blank">
+          <SiLinkedin />
+        </a>
+        <a href="https://github.com/Mevzin" target="blank">
+          <SiGithub />
+        </a>
+        <a href="https://www.instagram.com/thi.mevzin/" target="blank">
+          <SiInstagram />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=5588998548929"
+          target="blank"
+        >
+          <SiWhatsapp />
+        </a>
+      </div>
     </div>
   );
 }
