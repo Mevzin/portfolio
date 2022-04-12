@@ -4,7 +4,7 @@ import emailjs from "emailjs-com";
 import Swal from "sweetalert2";
 
 export default function ContactMe() {
-  function handleOnSubmit(e) {
+  function handleOnSubmit(e:any) {
     e.preventDefault();
     emailjs
       .sendForm(
