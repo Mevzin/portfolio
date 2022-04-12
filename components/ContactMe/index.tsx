@@ -8,8 +8,8 @@ export default function ContactMe() {
     e.preventDefault();
     emailjs
       .sendForm(
-        process.env.NEXT_PUBLIC_SERVICE_ID,
-        process.env.NEXT_PUBLIC_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_SERVICE_ID as string,
+        process.env.NEXT_PUBLIC_TEMPLATE_ID as string,
         e.target,
         process.env.NEXT_PUBLIC_USER_ID
       )
