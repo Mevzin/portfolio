@@ -35,7 +35,7 @@ export default function ContactMe() {
 
   return (
     <div className={styles.containerContactMe}>
-      <h1>Contact Me</h1>
+      <h1>Entre em contato</h1>
       <form onSubmit={handleOnSubmit}>
         <input type="text" name="user_name" placeholder="Name"/>
         <input type="text" name="user_email" placeholder="Email"/>
