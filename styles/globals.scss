@@ -155,6 +155,12 @@ a {
   }
 }
 
+@media (max-width: 360px) {
+  html {
+    width: 360px;
+  }
+}
+
 button {
   cursor: pointer;
 }

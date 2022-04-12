@@ -7,6 +7,7 @@ export default function CardProjects() {
       <h1>Projects</h1>
       <div className={styles.contentCard}>
         <CardProject
+        imageUrl="aa"
           title="Ignews"
           codeUrl="https://github.com/Mevzin/ignews"
           languages={["react", "typescript"]}

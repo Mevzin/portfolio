@@ -36,3 +36,19 @@
   height: 100%;
   margin-right: 10px;
 }
+
+
+@media (max-width: 390px) {
+  .containerProgress {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .text {
+    span{
+      margin-top: 10px
+    }
+  }
+
+}

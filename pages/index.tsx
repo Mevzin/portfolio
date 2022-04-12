@@ -10,13 +10,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.bannerContainer}>
-        <section className={styles.text}>
+        <div className={styles.text}>
           <h1>
             Hi my name is
             <span> Thiago Torres </span>
             and I'm a developer Front End
           </h1>
-        </section>
+        </div>
         <img src="/assets/profile.png" alt="Profile photo" />
       </div>
       <CardAboutMe />
@@ -68,7 +68,6 @@ export default function Home() {
             />
           </div>
         </div>
-        <ProgressBarSkills title="Sass" value={29} color="var(--purple-900)" />
       </div>
         <CardProjects />
         <ContactMe />

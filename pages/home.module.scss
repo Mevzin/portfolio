@@ -111,7 +111,59 @@
     justify-content: center;
   }
 
-  .left, .right {
+  .left,
+  .right {
     margin-bottom: -14px;
+  }
+}
+
+@media (max-width: 390px) {
+  .bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 200px;
+      border-radius: 50%;
+      border: 0.15rem solid var(--purple-900);
+      margin-left: 1.25rem;
+    }
+  }
+
+  .text {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    h1 {
+      font-family: Roboto;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--white-900);
+      text-align: justify;
+    }
+
+    span {
+      color: var(--purple-900);
+    }
+  }
+
+  .skillsContent {
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .aProgress {
+    width: 100%;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    margin-left: 0px;
   }
 }

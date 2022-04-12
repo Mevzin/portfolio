@@ -51,3 +51,59 @@
     }
   }
 }
+
+@media (max-width: 390px){
+  .containerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 450px;
+    background: var(--gray-900);
+    border-radius: 12px;
+    border-left: 11px solid var(--purple-900);
+  }
+  
+  .contentCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 90%;
+    height: 90%;
+    padding: 1.25rem;
+  
+    
+    h1 {
+      font-family: Roboto, "Helvetica Neue",;
+      font-size: 2.25rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      font-family: Roboto, "Helvetica Neue",;
+      font-size: 1.5rem;
+      font-weight: regular;
+      text-align: justify;
+      margin-bottom: 1rem;
+    }
+  
+    button {
+      margin-left: auto;
+      color: white;
+      background: var(--gray-900);
+      height: 50px;
+      width: 160px;
+      font-size: 1.25rem;
+      font-weight: bold;
+      border: 2px solid var(--purple-900);
+      border-radius: 40px;
+      transition: 0.3s;
+  
+      &:hover {
+        background: var(--purple-900);
+      }
+    }
+  }
+}
