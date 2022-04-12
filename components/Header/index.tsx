@@ -20,25 +20,27 @@ export default function Header() {
         <Link href="/">
           <a>Home</a>
         </Link>
-        <Link href="#">
-          <a>Projects</a>
-        </Link>
-        <Link href="#">
-          <a>About</a>
+        <Link href="#about">
+          <a>Sobre</a>
         </Link>
         <Link href="#skills">
           <a>Skills</a>
         </Link>
-        <Link href="#">
-          <a>Repositories</a>
+        <Link href="#projects">
+          <a>Projetos</a>
+        </Link>
+        <Link href="#contactme">
+          <a>Contato</a>
+        </Link>
+        <Link href="https://github.com/mevzin">
+          <a target="blank">Repositórios</a>
         </Link>
       </div>
       <div className={styles.mobileNav}>
         <AiOutlineMenu onClick={() => handleMobileNav(!mobileNav)} />
         {mobileNav && (
           <div className={styles.mobileNavContainer}>
-            <AiOutlineCloseCircle 
-            onClick={() => handleMobileNav(!mobileNav)}/>
+            <AiOutlineCloseCircle onClick={() => handleMobileNav(!mobileNav)} />
             <Link href="/">
               <a>Home</a>
             </Link>

@@ -2,9 +2,9 @@ import styles from "./styles.module.scss";
 
 export default function CardAboutMe() {
   return (
-    <div className={styles.containerCard}>
+    <div id="about" className={styles.containerCard}>
       <div className={styles.contentCard}>
-        <h1> About me </h1>
+        <h1> Sobre </h1>
         <p>
           {" "}
           Ola meu nome é Thiago Torres, tenho 22 anos
@@ -13,7 +13,7 @@ export default function CardAboutMe() {
           pela Universidade Vale do Salgado e estou sempre em busca
           de aprender mais e evoluir tanto como pessoa quanto como dev!
         </p>
-        <button>LinkedIn</button>
+        <a href="https://www.linkedin.com/in/thiagotorresmev/" target="blank">LinkedIn</a>
       </div>
     </div>
   );

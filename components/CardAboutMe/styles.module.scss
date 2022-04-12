@@ -34,7 +34,11 @@
     margin-bottom: 1rem;
   }
 
-  button {
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     margin-left: auto;
     color: white;
     background: var(--gray-900);
@@ -89,7 +93,7 @@
       margin-bottom: 1rem;
     }
   
-    button {
+    a {
       margin-left: auto;
       color: white;
       background: var(--gray-900);

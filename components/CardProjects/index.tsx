@@ -3,48 +3,47 @@ import styles from "./styles.module.scss";
 
 export default function CardProjects() {
   return (
-    <div className={styles.containerCard}>
+    <div id="projects" className={styles.containerCard}>
       <h1>Projects</h1>
       <div className={styles.contentCard}>
         <CardProject
-        imageUrl="aa"
+          imageUrl="/assets/Homeignews.png"
           title="Ignews"
           codeUrl="https://github.com/Mevzin/ignews"
-          languages={["react", "typescript"]}
-          viewUrl="aa"
+          languages={["nextjs", "typescript", "scss"]}
         />
         <CardProject
-          title="Ignews"
-          codeUrl="https://github.com/Mevzin/ignews"
+          title="Todo List"
+          codeUrl="https://github.com/Mevzin/todo-reactjs"
           languages={["react", "typescript"]}
-          viewUrl="aa"
         />
         <CardProject
-          title="Ignews"
-          codeUrl="https://github.com/Mevzin/ignews"
-          languages={["react", "typescript"]}
-          viewUrl="aa"
+          imageUrl="/assets/goFinances.png"
+          title="GoFinances"
+          codeUrl="https://github.com/Mevzin/gofinances"
+          languages={["react", "typescript", "styled-components", "android"]}
         />
         <CardProject
-          title="Ignews"
-          codeUrl="https://github.com/Mevzin/ignews"
-          languages={["react", "typescript"]}
-          viewUrl="aa"
+          title="dt Money"
+          codeUrl="https://github.com/Mevzin/dt-money"
+          languages={["react", "typescript", "styled-components"]}
         />
         <CardProject
-          title="Ignews"
-          codeUrl="https://github.com/Mevzin/ignews"
-          languages={["react", "typescript"]}
-          viewUrl="aa"
+          title="Conecta Dev"
+          codeUrl="https://github.com/Mevzin/reactjs-conectadev"
+          languages={["react", "javascript"]}
         />
         <CardProject
-          title="Ignews"
-          codeUrl="https://github.com/Mevzin/ignews"
-          languages={["react", "typescript"]}
-          viewUrl="aa"
+          imageUrl="/assets/insta.png"
+          title="Clone Instagram"
+          codeUrl="https://github.com/Mevzin/instagram-dio"
+          languages={["html", "css"]}
+          viewUrl="https://mevzin.github.io/instagram-dio/"
         />
       </div>
-      <a href="https://github.com/mevzin" target="blank">View more projects</a>
+      <a href="https://github.com/mevzin" target="blank">
+        View more projects
+      </a>
     </div>
   );
 }

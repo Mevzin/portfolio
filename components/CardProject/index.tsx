@@ -8,6 +8,11 @@ import {
   SiSass,
   SiReact,
   SiAngularjs,
+  SiStyledcomponents,
+  SiNextdotjs,
+  SiCss3,
+  SiAndroid,
+  SiApple
 } from "react-icons/si";
 
 import { VscGithub } from "react-icons/vsc";
@@ -44,12 +49,22 @@ export default function CardProject({
         return <SiSass />;
       case "html":
         return <SiHtml5 />;
+      case "styled-components":
+        return <SiStyledcomponents />;
+      case "nextjs":
+        return <SiNextdotjs />;
+      case "css":
+        return <SiCss3 />;
+      case "android":
+        return <SiAndroid />
+      case "ios":
+        return <SiApple />
     }
   }
 
   return (
     <div className={styles.containerCard}>
-      {imageUrl ? <img src="/assets/HomeIgnews.png" alt="ignews" /> : <VscGithub />}
+      {imageUrl ? <img src={imageUrl} alt="ignews" /> : <VscGithub />}
       <div className={styles.footerCard}>
         <div className={styles.actionsCard}>
           <h1>{title}</h1>
