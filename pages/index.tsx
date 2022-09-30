@@ -4,6 +4,7 @@ import CardAboutMe from "../components/CardAboutMe";
 import CardProjects from "../components/CardProjects";
 import ContactMe from "../components/ContactMe";
 import ProgressBarSkills from "../components/ProgressBarSkills/inde";
+import Skills from "../components/Skills";
 import styles from "./home.module.scss";
 
 export default function Home() {
@@ -20,7 +21,8 @@ export default function Home() {
         <img src="/assets/profile.png" alt="Profile photo" />
       </div >
       <CardAboutMe />
-      <div id="skills" className={styles.skillsContainer}>
+      <Skills />
+      {/* <div id="skills" className={styles.skillsContainer}>
         <h1>Skills</h1>
         <div className={styles.skillsContent}>
           <div className={styles.left}>
@@ -68,7 +70,7 @@ export default function Home() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
         <CardProjects />
         <ContactMe />
     </div>
