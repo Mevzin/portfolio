@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Container, Hero, ImageProfile } from "./styles";
 
 export function Home() {
